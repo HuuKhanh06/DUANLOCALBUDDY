@@ -1,0 +1,46 @@
+@import './tokens.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Be Vietnam Pro', ui-sans-serif, system-ui, sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+  }
+
+  body {
+    min-height: 100vh;
+    background-color: var(--color-bg);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Accessible focus ring */
+  :focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+
+  /* Minimum tap target 44px */
+  button, a, [role="button"] {
+    min-height: 44px;
+  }
+}
+
+@layer utilities {
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* CHẾ ĐỘ FIGMA: Tắt animation & transition khi tham số URL chứa ?figma=1 để html.to.design chụp chuẩn xác */
+body.figma-mode *,
+.figma-mode * {
+  animation: none !important;
+  transition: none !important;
+  transform: none !important;
+}

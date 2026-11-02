@@ -1,0 +1,70 @@
+/* LOCALBUDDY Design Tokens */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Primary */
+  --color-primary: #15803D;
+  --color-primary-dark: #14532D;
+  --color-primary-soft: #DCFCE7;
+  --color-secondary: #86EFAC;
+
+  /* Background & Surface */
+  --color-bg: #F6FAF6;
+  --color-surface: #FFFFFF;
+
+  /* Text */
+  --color-text: #14231A;
+  --color-text-muted: #4B5B50;
+
+  /* Border */
+  --color-border: #D6E2D9;
+
+  /* Semantic */
+  --color-success: #166534;
+  --color-success-bg: #DCFCE7;
+  --color-warning: #92400E;
+  --color-warning-bg: #FEF3C7;
+  --color-error: #B91C1C;
+  --color-error-bg: #FEE2E2;
+  --color-info: #1E40AF;
+  --color-info-bg: #DBEAFE;
+  --color-neutral: #374151;
+  --color-neutral-bg: #E5E7EB;
+
+  /* BookingStatus badges */
+  --bs-pending-text: #92400E;
+  --bs-pending-bg: #FEF3C7;
+  --bs-waiting-text: #9A3412;
+  --bs-waiting-bg: #FFEDD5;
+  --bs-confirmed-text: #1E40AF;
+  --bs-confirmed-bg: #DBEAFE;
+  --bs-completed-text: #166534;
+  --bs-completed-bg: #DCFCE7;
+  --bs-disputed-text: #B91C1C;
+  --bs-disputed-bg: #FEE2E2;
+  --bs-cancelled-text: #374151;
+  --bs-cancelled-bg: #E5E7EB;
+
+  /* Spacing (multiples of 4px) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+
+  /* Border radius */
+  --radius-btn: 8px;
+  --radius-card: 12px;
+  --radius-modal: 16px;
+  --radius-badge: 999px;
+
+  /* Shadows */
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.08);
+  --shadow-modal: 0 8px 24px rgba(0,0,0,0.12);
+
+  /* Sidebar width (Admin) */
+  --sidebar-width: 240px;
+}
+
